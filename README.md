@@ -19,3 +19,7 @@ Extreme Gradient Boost (XGB) and SVM models achieved 0.83 of mean average precis
 
 This project aims at providing "smart pricing" for New York City Airbnbs. The data is composed of 48,895 rows and 16 columns. The optimal model achieves 95% coverage with $36.07 MAE (Mean Absolute Error). The reason the model could not achieve 100% coverage originates from the fact that high pricing airbnbs are rare and therefore not many training models provided for the model to be trained on. For predicted values above 95 percentile training price $350 should be examined by human experts. 
 
+### 4. [Monthly Sunspot Numbers Prediction](https://github.com/soo-pecialist/DS_Projects/blob/master/Sunspot.ipynb)
+  (Date: Oct. 23, 2019)
+
+Predictions of sunspot number are also very important in planning space-related activities particularly for low Earth orbiting spacecraft. This project predicts monthly sunspot numbers. The data is composed of the observations over 18 years (2001 - 2018) from Australia. The CRNN (Convolutional Recurrent Neural Network) predicts the number of sunspot with 1.78 MAE (mean absolute error). 
