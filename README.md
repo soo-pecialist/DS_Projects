@@ -29,6 +29,6 @@ Predictions of sunspot number are also very important in planning space-related 
 
 This project aims to develop a model that an predict the market price for Google. The data is composed of 13 years of stock data (2006-01-01 to 2018-01-01). With multi-layer LSTM model, I achieved 43.67 MAE. The model underperformed on the test set (training set: 17.17 MAE), but it is due to the configuration of the data. The data shows very mild upward trend until 2012 and then exponential-like trend after 2012, which means, we do not have enough data to read this trend more precisely. With more accumulation of data throughout the years, the performance level will be improved.
 
-<img src="https://github.com/soo-pecialist/DS_Projects/blob/master/images/DJIA_google.png?raw=true" width=700>
+<img src="https://github.com/soo-pecialist/DS_Projects/blob/master/images/DJIA_google.png?raw=true" width=800 align="middle">
 
 
