@@ -31,4 +31,14 @@ This project aims to develop a model that an predict the market price for Google
 
 <img src="https://github.com/soo-pecialist/DS_Projects/blob/master/images/DJIA_google.png?raw=true" width=800 align="middle">
 
+### 6. [Finding the Winning Strategy in a Card Game](https://github.com/soo-pecialist/DS_Projects/blob/master/Finding_The_Winning_Strategy_In_a_Card_Game.ipynb)
+(Date: Feb. 13, 2020)
+
+All 52 cards lie face-down; half the cards are red and half are black. We proceed to flip the cards over one by one. If the last card you flip over is red, you will win a dollar and otherwise lose a dollar. You can halt the game at any time and flip the last card which will serve as the final card. We can play the game as many times as you like. The deck will be reshuffled every time. After each round, we exchange money. The project is aiming to figure out the best probabilistic approach to winning the game with the help of simulation. After experiments I came to conclusion that "No matter what we do, our likelihood of winning remains 50-50. Therefore, the most optimal strategy we can off is to pick the first card in the shuffled deck."
+
+### 7. [Assessing Online Ad-Clicks for Significance](https://github.com/soo-pecialist/DS_Projects/blob/master/Assessing_Online_Ad-Clicks_for_Significance.ipynb)
+(Date: March. 19, 2020)
+
+The owner of a business wants to know if there exists a color among 30 different colors that draws significantly more ad-clicks than blue which is current color of text. With naive Permutation test 'Ultramarine' came out as significant but after Bonferonni correction taking in to account comparisons between blue and 29 other colors, the p-value was not statistically significant. If the owner had simply compared blue to the other 5, say, colors, then maybe we would have obtained a statistically significant result.  
+
 
